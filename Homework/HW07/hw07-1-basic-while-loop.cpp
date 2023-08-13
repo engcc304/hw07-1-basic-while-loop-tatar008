@@ -37,8 +37,8 @@ int main() {
     printf("Enter number:\n");
     scanf("%d", &num);
 
-    int i = 1;
-        if (i % 2 == 1) {
+    int i = 0;
+        if (num % 2 == 0) {
     		while (i <= num) {
             	printf("(%d) Hello World\n", i);
             	i++;
